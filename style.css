@@ -1,0 +1,42 @@
+#sydor_experience { 
+    height: 470px; 
+    width: 100%;
+    display: block;
+    background: url('web-forest.jpg') no-repeat center center;
+    background-size: cover;
+ }
+
+.sydor_experience_text {
+    top: 15%;
+    position: relative;
+    text-align: center;
+    display: block;
+
+    /* align: center; */
+    /* vertical-align: middle; */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    font-size:10px;
+    background-color:white;
+    color: black;
+    padding: 11px;
+    text-decoration: none;
+    /* display: inline-block; */
+    /* font-size: 16px; */
+    /* margin: 4px 2px; */
+    /* cursor: pointer; */
+    /* margin: auto; */
+    top: 45%;
+    position: relative;
+    /* text-align: center; */
+    /* display: block; */
+
+}
