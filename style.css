@@ -1,0 +1,171 @@
+.travel-block-text-container-heading {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #666;
+    display: block;
+    text-align: center;
+}
+
+.travel-block-grid-item-section-title, .travel-block-section-title {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #666;
+    display: block;
+    text-align: center;
+}
+.travel-block-grid-item{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+travel-block.travel-block-picture img{
+    object-fit: cover;
+}
+
+.travel-block-text-container-heading {
+    padding: 5rem 2rem;
+    position: relative;
+
+}
+
+.travel-title{
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Travel-requirements-Dubai, .Travel-requirements-destination{
+    display: inline-block;
+}
+
+.Ticket-flexibility, .Multi-risk{
+    display: inline-block;
+}
+
+.travel-block-description, .travel-block-section-title, .travel-block-title {
+    display: block;
+    text-align: center;
+}
+
+.travel-block-description p {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    color: #666;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+.travel-block-grid{
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.travel-block-grid-item-link {
+    margin: 0 0 1rem 1rem;
+}
+.travel-block-grid-item-link {
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #666;
+}
+
+.travel-block-grid-item-link:first-of-type .travel-block-grid-item {
+    width: 534px;
+    height: 534px;
+}
+
+.travel-block-grid-item-link:first-of-type .travel-block-grid-item-container{
+    padding: 4rem 4rem 0;
+}
+
+.travel-block-grid-item-link:first-of-type .travel-block-grid-item-section-title {
+    text-align: left;
+}
+
+.travel-block-grid-item-section-title, .travel-block-item-section-title {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    color: #666;
+}
+
+.travel-block-grid-item-section-title .travel-block-grid-item-title {
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 5rem;
+    margin-top: 3rem;
+    text-align: left;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.travel-block-grid-item-link:first-of-type .travel-block-grid-item-cta {
+    text-align: left;
+}
+
+.travel-block-grid-item-image {
+    position: relative;
+    bottom: 0;
+    margin-top: -.5rem;
+    width: 10%;
+    height: auto;
+}
+
+
+img{
+    width: 100%;
+}
+
+.travel-block-grid-item-link {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.travel-block-grid-item-container {
+    text-align: center;
+    padding: 2rem 2rem 0;
+    z-index: 30;
+}
+
+
+.travel-block-grid-item-section-title {
+    display: block;
+    line-height: 1.2;
+    text-align: center;
+}
+.travel-block-grid-item-title {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+travel-block-grid-item-cta {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    padding: 2rem 2rem 0;
+}
+
+
+
+
+
+
