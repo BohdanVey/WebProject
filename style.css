@@ -2,7 +2,7 @@
     height: 470px; 
     width: 100%;
     display: block;
-    background: url('web-forest.jpg') no-repeat center center;
+    background: url('bg.jpg') no-repeat center center;
     background-size: cover;
  }
 
@@ -32,13 +32,61 @@ body{
 
     /* background */
     background-color:white;
-    color: black;
 
     /* text */
     text-decoration: none;
     font-size: 12px;
+    color: black;
+
 
     /* other */
     cursor: pointer;
     
+}
+
+.grid-container{
+    text-align: center;
+}
+
+.grid-child-row {
+    list-style-type: none;
+    display: block;
+}
+
+.grid-child-element {
+    height: 346px;
+    width: 520px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    box-shadow: 0px 0px 3px 3px whitesmoke;
+    
+}
+
+
+.city-card-picture{
+    position: relative;
+
+}
+
+.grid-child-element-info {
+    
+}
+
+.city-card-country {
+
+}
+
+.city-card-picture {
+    position: relative;
+    width: 100%;
+
+    
+}
+
+.city-card-link {
+    display: block;
 }
