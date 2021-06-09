@@ -1,16 +1,39 @@
-#sydor_experience { 
+#sydor_experience {
     height: 470px; 
     width: 100%;
     display: block;
-    background: url('bg.jpg') no-repeat center center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0% 30%,  rgba(0, 0, 0, 0.5) 70% 100%), url('media/bg.jpg') no-repeat center center;
     background-size: cover;
  }
 
-.sydor_experience_text {
-    top: 15%;
+.experience-text {
+    top: 20%;
     position: relative;
     text-align: center;
     display: block;
+    color: whitesmoke;
+}
+
+.sydor-experience-subtitle {
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size:  0.6rem;
+    line-height: 2rem;
+    letter-spacing: .4rem;
+    font-weight: 700;
+
+}
+
+.sydor-experience-title {
+    font-family: "Emirates-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size:  2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+.sydor-experience-label {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size:  0.5rem;
+    line-height: 1rem;
 }
 
 body{
@@ -18,7 +41,7 @@ body{
     padding: 0;
 }
 
-.button {
+.button-1 {
     /* box-model */
     display: table;
     margin: 0px auto 0px auto;
@@ -26,7 +49,7 @@ body{
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
-    top: 45%;
+    top: 50%;
     position: relative;
     text-align: center;
 
@@ -38,55 +61,129 @@ body{
     font-size: 12px;
     color: black;
 
+    border: 2px solid white;
+    border-radius: 1px;
 
     /* other */
     cursor: pointer;
     
 }
 
-.grid-container{
+
+.button-2 {
+    /* box-model */
+    display: table;
+    margin: 0px auto 10px auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 55px;
+    padding-left: 55px;
+
+
+    top: 50%;
+    position: relative;
     text-align: center;
+
+    /* background */
+    background-color:white;
+
+    /* text */
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+
+    border: 1px solid black;
+    border-radius: 3px;
+
+    box-shadow: 1px 1px 3px 3px rgb(224, 221, 221);
+
+    /* other */
+    cursor: pointer;
+    
 }
 
-.grid-child-row {
+.destinations {
+    text-align: center;
+    font-size: 17px;
+    line-height: 15px;
+}
+
+.destinations-header {
+    line-height: 5rem;
+
+}
+
+.destinations-grid-container{
+
+}
+
+.destinations-grid-child-row {
     list-style-type: none;
     display: block;
+
 }
 
-.grid-child-element {
-    height: 346px;
-    width: 520px;
+.destinations-grid-child-element {
+    height: 21rem;
+    width: 30rem;
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     color: white;
     box-shadow: 0px 0px 3px 3px whitesmoke;
-    
+    border-radius: 5px;
+    overflow: hidden;
 }
 
-
-.city-card-picture{
-    position: relative;
-
-}
 
 .grid-child-element-info {
-    
-}
-
-.city-card-country {
-
+    padding: 1rem;
+    color: black;
 }
 
 .city-card-picture {
     position: relative;
     width: 100%;
-
-    
 }
+
+.city-card-country {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.4rem;  
+    font-size: 0.7rem;
+    letter-spacing: .4rem
+}
+
+.city-card-city {
+    font-family: "Emirates-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 2.8rem;  
+    font-size: 1.75rem;
+}
+
+.city-card-date {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 1.6rem;  
+    font-size: 0.84rem;
+}
+
+.city-card-partner {
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 1.4rem;  
+    font-size: 0.7rem;
+
+}
+
+.city-card-price {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    line-height: 2rem;  
+    font-size: 1.12rem;
+}
+
+
 
 .city-card-link {
     display: block;
+    text-decoration: none;
 }
