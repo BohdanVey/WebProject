@@ -1,10 +1,289 @@
+.header-vey {
+    height: 55px;
+    background: #333;
+    width: 100%;
+}
+
+#left-header-small {
+    float: left;
+}
+
+#right-header-small {
+    float: right;
+}
+
+#header-small {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100%;
+}
+
+.header-left-ul {
+    margin-left: 100px;
+}
+
+#header_logo_link {
+    background-color: #d71921;
+    position: absolute;
+    width: 90px;
+    height: 125px;
+    z-index: 3;
+}
+
+.header-left-li {
+    display: inline-block;
+    max-width: 150px;
+    text-align: center;
+    height: 55px;
+}
+
+.header-left-li-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo-image {
+    bottom: .5rem;
+    display: inline-block;
+    position: absolute;
+}
+
+
+.world {
+    display: inline-block;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNjMuNzMgNy4xQzMyLjEgNy4xIDYuMzYgMzIuOCA2LjM2IDY0LjQ2YzAgMzEuNjIgMjUuNzQgNTcuMzYgNTcuMzcgNTcuMzZTMTIxLjEgOTYuMSAxMjEuMSA2NC40NmMwLTMxLjY0LTI1Ljc0LTU3LjM3LTU3LjM3LTU3LjM3em0wIDEwNi44OGMtMjcuMzQtLjAzLTQ5LjUtMjIuMTgtNDkuNTItNDkuNTIgMC0uMzMuMDMtLjY0LjAzLS45Nmw3LjE1IDUuNWgzLjdsNC4xNyA0LjE4djguN2wzLjU4IDMuNTdoNC4yNHYxOC4wNGw1LjQ2IDUuNDdoMS45di0zLjQ0bDkuMzUtOS4zNXYtMy41Nmw0Ljg4LTQuOTN2LTloLTUuNGwtMTAuNi0xMC42SDI3LjdWNjAuM2gxMS42NHYtMy4zOGg3LjAybDQuNzQtNC43MnYtNy42bC02LjM3LTYuMzdoLTcuNTJ2My44OGgtOC4wOFYzN2w0LjctNC43di0zLjM0aC00LjYyYTQ5LjM2IDQ5LjM2IDAgMCAxIDM0LjUtMTQuMDIgNDkuNCA0OS40IDAgMCAxIDMyLjYgMTIuMjdIODUuMjZMNzcuMyAzNS4ybDUuNDYgNS40NS0zLjUgMy41LTEuNi0xLjYgMS40LTEuNC0uNjUtLjY2LTIuMzMtMi4zNC0uNjMtLjY0LTQuOSA0LjYgNS41MyA1LjUzLTcuNjgtLjA1djkuNTZoOC43NWwuMDctNS41IDEuNDMtMS40MyA1LjE1IDUuMTd2My40aDcuMDNsLjI3LS4yNyAxMS44NiAxMS44MyA2LjgzLTYuOGgzLjQ0di45YzAgMjcuMzYtMjIuMTcgNDkuNTItNDkuNSA0OS41NXpNNjUuMzIgMTkuOTZsLTIwLjE4LjAyVjMzLjZsOC4zMyA4LjMzaDMuODdWMzYuMWw3Ljk4LTcuOTd6bTMxLjU2IDUzLjhsLTEzLjQtMTMuNHYtLjA0SDY4LjNsLTQuNTUgNC41NHY5LjY3bDYuNDYgNi40NWgxMS43djExLjNsOC44IDguODRoMi4yVjkwLjI1bDQuMy00LjNWNzhoMi40NGwzLjA4LTMuMS0xLjE4LTEuMTR6TTk1LjggOTkuNTJsMy43Mi0zLjF2LTUuNWgtMy43eiIvPjwvc3ZnPg==);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    text-align: right;
+    width: 23px;
+    height: 17px;
+}
+
+.info-header {
+    display: inline-block;
+}
+
+.world-ua {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.search {
+    font-family: "iconography" !important;
+    content: "\f1f8";
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+
+.text {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 150px;
+    font-family: Heroic-Medium, Arial Narrow Bold, Franklin Gothic Medium, Franklin Gothic, Arial Narrow, HelveticaNeue, Helvetica, arial, sans-serif;
+    font-size: 3rem;
+    line-height: 3.3rem;
+    font-weight: 400;
+    color: #ffffff;
+    transform: rotate(0deg) scale(1) skew(-8deg) translate(0);
+    text-shadow: .1rem .1rem .5rem rgba(0, 0, 0, .3);
+}
+
+
+.main-photo {
+    width: 100%;
+    height: 520px;
+    display: block;
+    background: url("https://c.ekstatic.net/ecl/people/outdoors/flora-park-sightseeing-lavander-flower-at-kuyucak-w1920x480.jpg?h=W-HI5sr3dIF7f3pUW207jQ") no-repeat center center;
+    background-size: cover;
+}
+
+.big-text-down {
+    padding-left: 200px;
+}
+
+.travel {
+    font-size: 6rem;
+    line-height: 6.6rem;
+}
+
+.button-learn-main {
+    display: inline-block;
+    border-radius: 5px;
+    height: 50px;
+    width: 175px;
+    margin-left: 1100px;
+    margin-top: 20px;
+    background: #c60c30;
+}
+
+.text-button-learn-main {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+
+}
+
+#table-big {
+    margin-top: -75px;
+    width: 1300px;
+    margin-inline: auto;
+
+    background: #ffffff;
+    height: 700px;
+
+}
+
+.table-big-subtable {
+    width: 1300px;
+    border: .1rem solid #d8d8d8;
+    height: 260px;
+}
+
+.subtale-big-ul {
+    width: 1300px
+}
+
+.table-text-big {
+    border: .1rem solid #d8d8d8;
+
+    display: table-cell;
+    height: 75px;
+    width: 333px;
+    padding: 0;
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 20px;
+    line-height: 2.3rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+}
+
+.subtable-li-text {
+    display: block;
+    margin-top: 20px;
+}
+
+.input-class {
+    width: calc(100% - 40px);
+    margin-inline: auto;
+    margin-top: 60px;
+    height: 75px;
+}
+
+.button-subtable-main {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    width: calc(25% - 50px);
+    height: 75px;
+    padding-left: 33px;
+    border-radius: 4px;
+    background: #c60c30;
+    margin-top: -5px;
+    margin-right: 16px;
+    margin-left: 0;
+
+}
+
+.text-another-subtable {
+    position: relative;
+    top: 20%;
+    left: 35%;
+}
+
+.another-table-text {
+    margin-left: 10px;
+}
+
+.another-subtable {
+    max-height: 200px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.another-subtable-li {
+    padding: 0;
+    margin-right: -6px;
+    display: inline-block;
+    width: 182px;
+    height: 150px;
+    border: .1rem solid #d8d8d8;
+}
+
+.text-button-subtable-main {
+    color: #ffffff;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+
+}
+
+.input-subtable {
+    padding-left: 33px;
+    margin-right: 16px;
+    margin-left: 0;
+
+    display: inline-block;
+    transition: all .2s ease;
+    user-select: none;
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+    font-size: 1.3rem;
+    color: #333;
+    width: calc(25% - 70px);
+    height: 75px;
+}
+
+.sub-image-another-subtable {
+    width: 60px;
+    height: 60px;
+
+}
+
+.choose-table-big {
+    border-bottom: solid #c60c30 4px;
+}
+
+.your-trips {
+    position: relative;
+    top: 30px;
+    padding-left: 20px;
+    text-decoration: underline #c60c30;
+    color: #c60c30;
+}
+
 #sydor_experience {
-    height: 470px; 
+    height: 470px;
     width: 100%;
     display: block;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0% 30%,  rgba(0, 0, 0, 0.5) 70% 100%), url('media/bg.jpg') no-repeat center center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0% 30%, rgba(0, 0, 0, 0.5) 70% 100%), url('media/bg.jpg') no-repeat center center;
     background-size: cover;
- }
+}
 
 .experience-text {
     top: 20%;
@@ -15,8 +294,8 @@
 }
 
 .sydor-experience-subtitle {
-    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-size:  0.6rem;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.6rem;
     line-height: 2rem;
     letter-spacing: .4rem;
     font-weight: 700;
@@ -24,19 +303,19 @@
 }
 
 .sydor-experience-title {
-    font-family: "Emirates-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-size:  2.5rem;
+    font-family: "Emirates-Bold", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 2.5rem;
     line-height: 3rem;
     font-weight: 700;
 }
 
 .sydor-experience-label {
-    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-size:  0.5rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.5rem;
     line-height: 1rem;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -54,7 +333,7 @@ body{
     text-align: center;
 
     /* background */
-    background-color:white;
+    background-color: white;
 
     /* text */
     text-decoration: none;
@@ -66,7 +345,7 @@ body{
 
     /* other */
     cursor: pointer;
-    
+
 }
 
 
@@ -86,7 +365,7 @@ body{
     text-align: center;
 
     /* background */
-    background-color:white;
+    background-color: white;
 
     /* text */
     text-decoration: none;
@@ -100,7 +379,7 @@ body{
 
     /* other */
     cursor: pointer;
-    
+
 }
 
 .destinations {
@@ -114,7 +393,7 @@ body{
 
 }
 
-.destinations-grid-container{
+.destinations-grid-container {
 
 }
 
@@ -150,37 +429,36 @@ body{
 }
 
 .city-card-country {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 1.4rem;  
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4rem;
     font-size: 0.7rem;
     letter-spacing: .4rem
 }
 
 .city-card-city {
-    font-family: "Emirates-Bold",Helvetica,Arial,"Lucida Grande",sans-serif;
-    line-height: 2.8rem;  
+    font-family: "Emirates-Bold", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 2.8rem;
     font-size: 1.75rem;
 }
 
 .city-card-date {
-    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    line-height: 1.6rem;  
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.6rem;
     font-size: 0.84rem;
 }
 
 .city-card-partner {
-    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    line-height: 1.4rem;  
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.4rem;
     font-size: 0.7rem;
 
 }
 
 .city-card-price {
-    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    line-height: 2rem;  
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 2rem;
     font-size: 1.12rem;
 }
-
 
 
 .city-card-link {
