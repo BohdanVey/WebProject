@@ -198,7 +198,7 @@
     display: inline-block;
     position: relative;
     top: -8px;
-    width: calc(25% - 50px);
+    width: calc(25% - 40px);
     height: 75px;
     padding-left: 33px;
     border-radius: 4px;
@@ -245,7 +245,6 @@
 }
 
 .input-subtable {
-    padding-left: 33px;
     margin-right: 16px;
     margin-left: 0;
 
@@ -255,7 +254,7 @@
     font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
     font-size: 1.3rem;
     color: #333;
-    width: calc(25% - 70px);
+    width: calc(25% - 40px);
     height: 75px;
 }
 
