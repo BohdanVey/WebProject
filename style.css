@@ -336,7 +336,8 @@ body {
 
     /* text */
     text-decoration: none;
-    font-size: 12px;
+    font-size: medium;
+    font-weight: bold;
     color: black;
 
     border: 2px solid white;
@@ -463,4 +464,379 @@ body {
 .city-card-link {
     display: block;
     text-decoration: none;
+}
+
+
+.learn-more-container {
+    position: relative;
+    width: 100%;
+    height: 470px;
+    box-sizing: border-box;
+}
+
+
+.learn-more-container img {
+    margin-top: 25px;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    filter: brightness(50%);
+}
+
+
+.learn-more-inside {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+
+.discounts-text {
+    color: white;
+    max-width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3vh;
+    font-weight: bold;
+}
+
+
+.discounts-ad {
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: xxx-large;
+    padding: 1rem;
+}
+
+
+.discounts-ad:after {
+    content: "";
+    position: relative;
+    background-color: #c60c30;
+    width: 60px;
+    height: 2px;
+}
+
+
+.discounts-spec {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: small;
+}
+
+
+.discounts-offer {
+    text-shadow: 0.1rem 0.1rem 0 rgba(0 0 0 0.5);
+    font-family: HelveticaNeue,Helvetica,Arial,sans-serif;
+    letter-spacing: 0.4rem;
+    font-size: medium;
+    opacity: 69%;
+    text-transform: uppercase;
+}
+
+
+.learn-more-button {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+
+.round-img {
+    border-radius: 50%;
+    transition: transform 200ms linear;
+    max-width: 165px;
+}
+
+
+.round-img:hover {
+    transform: scale(1.1);
+}
+
+
+.about-us {
+    color: black;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10vh;
+}
+
+
+.about-us a {
+    color: black;
+}
+
+
+.about-us h2 {
+    font-family: Emirates-Bold,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: xx-large;
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}
+
+
+.about-us p {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: large;
+    margin-bottom: 1vh;
+}
+
+
+.about-us ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.footer {
+    background: #333;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+@font-face {
+    font-family: Emirates-Bold;
+    src: url(media/emirates.ttf);
+  }
+
+.footer-main {
+    max-width: 1200px;
+    margin:0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footer-top {
+    width: 20%;
+    padding: 2.1rem 1rem 0 0;
+    border-top: 1px solid hsla(0,0%,85%,.2);
+    display: inline-block;
+}
+
+.footer-heading {
+    font-family: Emirates-Bold;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    word-break: break-word;
+}
+
+.footer-list-link {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: .1rem 0 .8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top-link {
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    display: inline-block;
+    line-height: 1.55;
+    color: #a9a9a9;
+    text-decoration: none;
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 400;
+    align-self: flex-start;
+}
+
+.footer-middle {
+    width: 30%;
+    display: inline-block;
+    border-top-width: 1px;
+    border-top: 1px solid hsla(0,0%,85%,.2);
+    padding: 2.1rem 1rem 0 0;
+    padding-top: 2.8rem;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.footer-paragraph {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    font-weight: 200;
+    color: #a9a9a9;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.apps-list {
+    font-size: 0;
+    margin: 0;
+    margin-top: 1.6rem;
+}
+
+.apps-list li {
+    display: inline-block;
+    width: 35%;
+    padding-top: 2rem;
+    margin-right: 1.7rem;
+}
+
+.social-list {
+    margin-top: 3.6rem;
+    padding: 0;
+    font-size: 0;
+}
+
+.social-item {
+    margin: 1px 0 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon {
+    display: block;
+    margin-right: 6px;
+    margin-bottom: .6rem;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.social-icon i {
+    display: inline-block;
+    color: #000;
+    font-size: 40px;
+    background: #fff;
+    border-radius: 35%;
+    width: 38px;
+    height: 38px;
+}
+
+.footer-awards {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-awards li {
+    margin: 3rem 0 0;
+    width: 30%;
+    display: inline-block;
+}
+
+.footer-awards img {
+    width: 240px;
+    height: 80px;
+}
+
+.footer-bottom {
+    padding: 0;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.footer-bottom-list-link {
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    font-style: normal;
+    margin: 2rem 0 0;
+        margin-right: 12rem;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.footer-bottom-list-link a {
+    color: #a9a9a9;
+    text-decoration: none;
+    line-height: 24px;
+    white-space: normal;
+    display: i;
+}
+
+.footer-bottom-list-link li {
+    float: left;
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+.footer-logo-container {
+    padding-top: 1rem;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.footer-paragraph-logo {
+    font-family: HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.61rem;
+    font-weight: 200;
+    color: #fff;
+}
+
+.footer-logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    background-color: #d71921;
+    width: 90px;
+    height: 119px;
+    overflow: hidden;
+}
+
+.footer-logo-image {
+    position: absolute;
+    top: .7rem;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer-hr {
+    opacity: .2;
+    margin: 4rem 0;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.footer-paragraph a {
+    color: #a9a9a9;
+}
+.footer-unsubscribe-link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.subscribe {
+    width: 100%;
+    font-size: 0;
+    padding-top: 1rem;
+}
+
+.footer-privacy-policy {
+    margin-top: 2rem;
+    line-height: 2.2rem;
 }
