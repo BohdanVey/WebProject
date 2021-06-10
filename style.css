@@ -836,3 +836,158 @@ hr {
     margin-top: 2rem;
     line-height: 2.2rem;
 }
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+#mllab {
+    height: 470px;
+    width: 100%;
+    display: block;
+    background-image: url("https://c.ekstatic.net/ecl/food/seafood-meal-first-class-black-and-white-d1920x1159.jpg?h=L362FnrfWDR3jXt-jyeIsw");
+    background-size: cover;
+
+}
+
+.travel-block-text {
+    top: 20%;
+    position: relative;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+.travel-block-text-container-heading {
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 0.6rem;
+    line-height: 2rem;
+    letter-spacing: .4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+
+}
+
+.travel-section-title {
+    font-family: "Emirates-Bold", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.travel-block-description {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem;
+/**::after,*/
+/**::before {*/
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 8;
+
+}
+
+.gallery__item--2 {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.gallery__item--3 {
+    grid-column-start: 12;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+}
+
+.gallery__item--4 {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 8;
+
+}
+
+.gallery__item--5 {
+    grid-column-start: 16;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 8;
+
+}
+
+.travel-block-grid-item-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.travel-block-grid-item{
+    text-align: center;
+    font-family: "Emirates-Bold", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+
+}
+
+.travel-block-grid-item-title-cta{
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.covid-block-grid-item{
+    text-align: center;
+    font-family: "Emirates-Bold", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    font-weight: 700;
+    /*margin-top: 6rem;*/
+
+}
+.covid-grid-item-title-cta{
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 13.4rem;
+}
